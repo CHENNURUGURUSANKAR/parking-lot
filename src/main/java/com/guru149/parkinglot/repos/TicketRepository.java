@@ -1,6 +1,5 @@
 package com.guru149.parkinglot.repos;
 
-import com.guru149.parkinglot.dtos.TicketDto;
 import com.guru149.parkinglot.exceptions.TicketNotFoundException;
 import com.guru149.parkinglot.models.Ticket;
 
