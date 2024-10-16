@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 @Setter
 @Builder(toBuilder = true)
 public class TicketDto {
+    private String ticketId;
     private int floorNumber;
     private int spotNumber;
     private VehicleType vehicleType;

@@ -14,7 +14,7 @@ public class Ticket extends BaseModel {
     private String vehicleId;
     private VehicleType vehicleType;
     private  Integer floorNumber;
-    private Integer spotNumber;
+    private Long spotNumber;
     private LocalDateTime entryTime;
     private LocalDateTime exitTime;
     private TicketStatus ticketStatus;
